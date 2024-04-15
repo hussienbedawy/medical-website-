@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* ======================== FOOTER section ====================== */
+.footer-links a {
+  color: black;
+  text-decoration: none;
+}
+.footer {
+  height: 350px;
+  background-color: white;
+  color: black;
+}
+.footer-links {
+  padding-left: 0;
+  margin-top: 20px;
+}
+.footer-links li {
+  margin-bottom: 10px;
+}
+.footer-div {
+  display: flex;
+  justify-content: center;
+}
+/* ======================== social icons and anchor links section ====================== */
+.social-icon-container,
+.anchor-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.social-icon i {
+  margin-right: 10px;
+}
+/* ======================== Respsivnes section ====================== */
+@media (min-width: 100px) and (max-width: 575px) {
+  .social-icon-container,
+  .anchor-links-container {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  #logo {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 575px) and (max-width: 767px) {
+  .social-icon-container,
+  .anchor-links-container {
+    margin: auto;
+  }
+  #logo {
+    order: -1;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+}
+@media (min-width: 767px) and (max-width: 1130px) {
+  .social-icon-container,
+  .anchor-links-container {
+    margin: auto;
+  }
+}
+@media (min-width: 1130px) {
+  .social-icon-container,
+  .anchor-links-container {
+    margin: auto;
+  }
+}
